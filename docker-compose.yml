@@ -3,3 +3,6 @@ services:
   graph-tool:
     build: ./
     image: dcagatay/graph-tool
+    stdin_open: true
+    volumes:
+      - /Users/hayati/Projects/analysis-worker:/analysis
